@@ -1,9 +1,11 @@
 $(document).ready(function () {
     $('.mainimage').slick({
         //slidesToScroll: 1,
-        //autoplay: true,
-        //autoplaySpeed: 5000,
-    });
+        autoplay: true,
+        autoplaySpeed: 5000,
+        arrows:false,
+        infinite:false
+ });
     $('.smallsl').slick({
         slidesToShow: 4,
         slidesToScroll: 4,

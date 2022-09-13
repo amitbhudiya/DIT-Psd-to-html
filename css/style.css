@@ -34,19 +34,19 @@
     display: flex;
     align-items: center;
     gap: 50px;
-
+    width: 56%;
 }
 form{
     display: flex;
     gap: 10px;
+    width:50%;
 
 }
 form .headtextbox{
     background-color: #f1f1f1;
     border: none;
     border-radius: 6px;
-
-    
+    width: 100%;
 }
 form input::placeholder {
     font-style: italic;
@@ -55,33 +55,30 @@ form .headsearch{
     border: none;
     height: 44px;
 }
-.rightitem{
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}
-.rightitem a{
+
+.item a{
     text-decoration: none;
     color: rgb(0, 0, 0);
-
+    gap: 10px;
+    display: flex;
+    align-items: center;
 }
-
-.item  .rightitem ul {
+.item   ul {
     padding: 0px;
 }
-.item .rightitem ul li {
+.item  ul li {
     list-style-type: none;
     position: relative;
     z-index: 101;
 }
-.item .rightitem ul li a {
+.item  ul li a {
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
 .sub {
     display: none;
 }
-.item .rightitem ul li:hover .sub {
+.item  ul li:hover .sub {
     display: block;
     position: absolute;
     background-color: rgb(255, 254, 254);
@@ -147,18 +144,18 @@ form .headsearch{
 .submenu ul li:hover {
     background-color: rgb(128, 128, 128);
 }
-
-
-#mainimg {
-    filter: grayscale(1);
-    transition: all 500ms;
+#mainimg{
     width: 100%;
-}
+    filter:grayscale(1);
 
+}
 #mainimg:hover{
     filter: grayscale(0);
 }
-
+.image{
+    position: relative;
+    
+}
 .banner {
     padding: 20px 47px 20px 30px;
     background-color: rgba(0, 0, 0, 0.8);
@@ -168,7 +165,7 @@ form .headsearch{
 }
 .bannertitle {
     display: flex;
-    
+    position: absolute;
     left: 50%;
     bottom: 169px;
     transform: translate(-50%);
@@ -208,11 +205,10 @@ form .headsearch{
     background-color: #f1f1f1;
 }
 .smallsl {
-    height: 63px;
-   
     font-size: 18px;
     display: flex;
     align-items: center;
+    padding: 17px 0px 18px 0px;
 }
 
 .sl .content-usp{
@@ -235,14 +231,14 @@ form .headsearch{
 }
 .catet .p1{
     margin: 0px;
-    padding-top: 100px;
+    padding-top: 99px;
    
     font-weight: lighter;
     font-size: 18px;
 }
 .catet .p2{
     margin: 0px;
-    padding-bottom: 50px;
+    padding-bottom: 49px;
     font-family: 'Source Serif Pro', serif;
     font-size: 36px;
 }
@@ -261,13 +257,26 @@ form .headsearch{
     filter: brightness(0.5);
     box-shadow: 0px 0px 4px rgb(65, 65, 65);
 }
+.lb{
+
+}
 #catel1 {
+    z-index: 2;
+    color: #000;
+    font-size: 26px;
+}
+.cateimage1 .btn1 {
+    padding: 14px 20px 15px 20px;
+    font-size: 14px;
+    border: none;
+    z-index: 3;
+}
+/* #catel1 {
     position: absolute;
     left: 10%;
     bottom: 25%;
     z-index: 2;
     color: white;
-   
     font-size: 26px;
 }
 .cateimage1 .btn1 {
@@ -279,7 +288,7 @@ form .headsearch{
    
     border: none;
     z-index: 3;
-}
+} */
 .btn1:hover {
     filter: brightness(0.8);
 }
