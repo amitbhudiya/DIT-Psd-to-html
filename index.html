@@ -6,117 +6,631 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dit interactive</title>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
+    <script src="https://kit.fontawesome.com/f65fad4294.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-
-    <div class="headline">
-        <label class="headlabel" id="headlabel">LIMITED-TIME OFFER:MID.SEASON SALE UPTO 70% OFF <Span><a href="">SHOP
-                    NOW</a></Span></label>
-    </div>
-
-    <div class="container">
-        <div class="header" id="header">
-            <div class="logo" id="logo">
-                <a href="#"><img src="./headimages/headlogo.png" alt="headlogo" id="headlogo"></a>
+    <header>
+        <div class="pencilbanner">
+            <div class="container">
+                <label class="bannerlabel" id="bannerlabel">LIMITED-TIME OFFER:MID.SEASON SALE UPTO 70% OFF
+                    <Span><a href="">SHOP NOW</a></Span>
+                </label>
             </div>
-            <div class="item" id="item">
-                <input type="text" class="headtextbox" placeholder="Search our store...">
-                <a href="#"><img src="./headimages/headsearch.png" alt="headsearch" id="headsearch"></a>
-                <a href="#"><img src="./headimages/headcall.png" alt="headcall" id="headcall"></a>
-                <a href="#"><img src="./headimages/headshare.png" alt="headshare" id="headshare"></a>
-                <ul>
-                    <li>
-                        <a href="#"><img src="./headimages/headaccount.png" alt="headaccount" id="headaccount"></a>
-                        <div class="sub">
+        </div>
+        <div class="container">
+            <div class="head">
+                <div class="logo" id="logo">
+                    <a href="#"><img src="./headimages/headlogo.png" alt="headlogo" id="headlogo"></a>
+                </div>
+                <div class="item" id="item">
+                    <div class="textb">
+                        <form>
+                            <div class="inputtext">
+                                <input type="text" class="headtextbox" placeholder="Search our store...">
+                            </div>
+                                <button type="submit" class="headsearch"><img src="./headimages/headsearch.png"
+                                        alt="search"></button>
+                            
+                        </form>
+                    </div>
+                    <div class="itemlogo">
+                        <div class="centeritem">
+                            <a href="tel:+1234567890"><img src="./headimages/headcall.png" alt="headcall"
+                                    id="headcall"><label id="no">12 3456 7890</label></a>
+                            <a href="#"><img src="./headimages/headshare.png" alt="headshare" id="headshare"></a>
                             <ul>
-                                <li><a href="#">Account</a></li>
-                                <li><a href="#">Settings</a></li>
-                                <li><a href="#">Adresses</a></li>
+                                <li>
+                                    <a href="#"><img src="./headimages/headaccount.png" alt="headaccount"
+                                            id="headaccount"></a>
+                                    <div class="sub">
+                                        <ul>
+                                            <li><a href="#">Account</a></li>
+                                            <li><a href="#">Settings</a></li>
+                                            <li><a href="#">Adresses</a></li>
+                                        </ul>
+                                    </div>
+
+                                </li>
                             </ul>
                         </div>
+                        <a href="#"><img src="./headimages/headcart.png" alt="headcart" id="headcart"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                    </li>
-                </ul>
-                <a href="#"><img src="./headimages/headcart.png" alt="headcart" id="headcart"></a>
+        </div>
+        <div class="navbar" id="navbar">
+
+            <ul>
+                <div class="homelogo">
+                    <li><a href=""><img src="./navbarimage/navhomelogo.png" alt="home"></a> </li>
+                </div>
+                <li><a href="#">Women<img src="./navbarimage/arrow.png" alt="arrow"></a>
+                    <div class="submenu">
+                        <ul>
+                            <li><a href="#">Saree</a></li>
+                            <li><a href="#">Jeans</a></li>
+                            <li><a href="#">Choli</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Men<img src="./navbarimage/arrow.png" alt="arrow"></a>
+                    <div class="submenu">
+                        <ul>
+                            <li><a href="#">Jeans</a></li>
+                            <li><a href="#">Shirt</a></li>
+                            <li><a href="#">Tshirt</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Dresses<img src="./navbarimage/arrow.png" alt="arrow"></a>
+                    <div class="submenu">
+                        <ul>
+                            <li><a href="#">Dress 1</a></li>
+                            <li><a href="#">Dress 2</a></li>
+                            <li><a href="#">Dress 3</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Accessories<img src="./navbarimage/arrow.png" alt="arrow"></a>
+                    <div class="submenu">
+                        <ul>
+                            <li><a href="#">Watch</a></li>
+                            <li><a href="#">Rings</a></li>
+                            <li><a href="#">Braclet</a></li>
+                            <li><a href="#">Necklace</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Shipping & Returns</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Review</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Theme Feature</a></li>
+            </ul>
+
+        </div>
+    </header>
+    <div class="headbanner">
+        <div class="mainimage" id="mainimage">
+            <img src="./mainimage/colorgirl.png" alt="main image" id="mainimg">
+            <img src="./mainimage/colorgirl.png" alt="main image" id="mainimg">
+            <img src="./mainimage/colorgirl.png" alt="main image" id="mainimg">
+            <img src="./mainimage/colorgirl.png" alt="main image" id="mainimg">
+        </div>
+        <div class="container">
+            <div class="bannertitle">
+                <div class="banner">
+                    <div class="bannertext">
+                        <p class="p1">RESPONSIVE THEME</p>
+                        <p class="p2">FOR NEW LOOK BIGCOMMERCE</p>
+                    </div>
+                    <div class="shopbtn">
+                        <button class="shopbutton">SHOP NEW ARRIVALS
+                            <img src="mainimage/shoparrow.png" alt="arrow">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="USP">
+        <div class="container">
+            <div class="smallsl" id="smallsl">
+                <div class="sl">
+                    <div class="content-usp">
+                        <img src="./smallslider/bulk.png" alt="bulk">Bulk Ordering Save on Shipping
+                    </div>
+                </div>
+                <div class="sl">
+                    <div class="content-usp">
+                        <img src="./smallslider/return.png" alt="return">Hassle Free Returns
+                    </div>
+                </div>
+                <div class="sl">
+                    <div class="content-usp">
+                        <img src="./smallslider/world.png" alt="world">Free Worldwide Shipping
+                    </div>
+                </div>
+                <div class="sl">
+                    <div class="content-usp">
+                        <img src="./smallslider/lock.png" alt="lock">100% Safe & Secure Checkout
+                    </div>
+                </div>
+                <div class="sl">
+                    <div class="content-usp">
+                        <img src="./smallslider/bulk.png" alt="bulk">Bulk Ordering Save on Shipping
+                    </div>
+                </div>
+                <div class="sl">
+                    <div class="content-usp">
+                        <img src="./smallslider/return.png" alt="return">Hassle Free Returns
+                    </div>
+                </div>
+                <div class="sl">
+                    <div class="content-usp">
+                        <img src="./smallslider/world.png" alt="world">Free Worldwide Shipping
+                    </div>
+                </div>
+                <div class="sl">
+                    <div class="content-usp">
+                        <img src="./smallslider/lock.png" alt="lock">100% Safe & Secure Checkout
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="navbar" id="navbar">
-        <ul>
-            <li><a href=""><img src="./navbarimage/navhomelogo.png" alt="home"></a> </li>
-            <li><a href="#">Women<img src="./navbarimage/arrow.png" alt="arrow"></a>
-                <div class="submenu">
-                    <ul>
-                        <li><a href="#">Saree</a></li>
-                        <li><a href="#">Jeans</a></li>
-                        <li><a href="#">Choli</a></li>
-                    </ul>
+    <div class="container">
+        <div class="trend">
+            <div class="catet">
+                <p class="p1">Spring Collection 2020</p>
+                <p class="p2">TRENDING CATEGORY</p>
+            </div>
+            <div class="cateimg1">
+                <div class="cateimage1">
+                    <img src="./Cate/earring.png" alt="earring">
+                    <label id="catel1">Designer Look Jewellery</label>
+                    <button class="btn1">SHOP COLLECTION</button>
                 </div>
-            </li>
-            <li><a href="#">Men<img src="./navbarimage/arrow.png" alt="arrow"></a>
-                <div class="submenu">
-                    <ul>
-                        <li><a href="#">Jeans</a></li>
-                        <li><a href="#">Shirt</a></li>
-                        <li><a href="#">T-shirt</a></li>
-                    </ul>
+                <div class="cateimage1">
+                    <img src="./Cate/purse.png" alt="purse">
+                    <label id="catel2">Hot Bag Collection</label>
+                    <button class="btn2">SHOP COLLECTION</button>
                 </div>
-            </li>
-            <li><a href="#">Dresses<img src="./navbarimage/arrow.png" alt="arrow"></a>
-                <div class="submenu">
-                    <ul>
-                        <li><a href="#">Saree</a></li>
-                        <li><a href="#">Jeans</a></li>
-                        <li><a href="#">Choli</a></li>
-                    </ul>
+                <div class="cateimage1">
+                    <img src="./Cate/family.png" alt="family">
+                    <label id="catel3">The Family Collection</label>
+                    <button class="btn3">SHOP COLLECTION</button>
                 </div>
-            </li>
-            <li><a href="#">Accessories<img src="./navbarimage/arrow.png" alt="arrow"></a>
-                <div class="submenu">
-                    <ul>
-                        <li><a href="#">Watch</a></li>
-                        <li><a href="#">Rings</a></li>
-                        <li><a href="#">Braclet</a></li>
-                        <li><a href="#">Nail-Polish</a></li>
-                    </ul>
+            </div>
+            <div class="cateimg2">
+                <div class="cateimage2">
+                    <img src="./Cate/shoes.png" alt="shoes">
+                    <label id="cateline1">Find you Perfect Sendals</label>
+                    <button class="btntwo1">SHOP COLLECTION</button>
                 </div>
-            </li>
-            <li><a href="#">Shipping & Returns</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Review</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Theme Feature</a></li>
-        </ul>
-    </div>
-    <div class="mainimage" id="mainimage">
-        <img src="./mainimage/normalgirl.png" alt="main image" id="mainimg">
-        <img src="./mainimage/normalgirl.png" alt="main image" id="mainimg">
-        <img src="./mainimage/normalgirl.png" alt="main image" id="mainimg">
-        <img src="./mainimage/normalgirl.png" alt="main image" id="mainimg">
-    </div>
-<div class="container">
-    <div class="smallsl" id="smallsl">
-        <div class="sl"><img src="./smallslider/bulk.png" alt="bulk"> Ordering Save on Shipping</div>
-        <div class="sl"><img src="./smallslider/return.png" alt="return">Hassle Free Returns</div>
-        <div class="sl"><img src="./smallslider/world.png" alt="world">Free Worldwide Shipping</div>
-        <div class="sl"><img src="./smallslider/lock.png" alt="lock">100% Safe & Secure Checkout</div>
-        <div class="sl"><img src="./smallslider/bulk.png" alt="bulk">Bulk Ordering Save on Shipping</div>
-        <div class="sl"><img src="./smallslider/return.png" alt="return">Hassle Free Returns</div>
-        <div class="sl"><img src="./smallslider/world.png" alt="world">Free Worldwide Shipping</div>
-        <div class="sl"><img src="./smallslider/lock.png" alt="lock">100% Safe & Secure Checkout</div>
+                <div class="cateimage2">
+                    <img src="./Cate/shop.png" alt="shop">
+                    <label id="cateline2">Hot Women Fashions</label>
+                    <button class="btntwo2">SHOP COLLECTION</button>
+                </div>
+            </div>
 
+        </div>
     </div>
-</div>
+
+
+    <div class="container">
+        <div class="cartsl">
+            <div class="cartt">
+                <p class="c1">Delicately Designed</h4>
+                <p class="c2">THE LATEST ARRIVALS</h1>
+            </div>
+            <div class="product">
+                <div class="productimage">
+                    <div class="productimg">
+                        <img src="./cart/w1.png" alt="W1">
+                        <div class="hovertrans">
+                            <button class="icon1"><img src="./cart/eye.png" alt="eye"></button>
+                            <button class="icon2"><img src="./cart/sharebtn.png" alt="share"></button>
+                            <button class="addcart"><img src="./cart/addcart.png" alt="addcart">ADD TO CART</button>
+                        </div>
+                        <div class="rating">
+                            <label id="rate">Pink Ice</label>
+                            <div class="stars">
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star grey"></i>
+                            </div>
+                        </div>
+                        <div class="des">
+                            <label id="description">Women Navy Hooded Sweatshirt, with attached hood contrast</label>
+                        </div>
+                        <div class="colors">
+                            <i class="fa-solid fa-circle color1 active"></i>
+                            <i class="fa-solid fa-circle color2"></i>
+                            <i class="fa-solid fa-circle color3"></i>
+                        </div>
+                        <div class="prices">
+                            <label id="price">$20.00</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="productimage">
+                    <div class="productimg">
+                        <img src="./cart/w2.png" alt="W2">
+                        <div class="hovertrans">
+                            <button class="icon1"><img src="./cart/eye.png" alt="eye"></button>
+                            <button class="icon2"><img src="./cart/sharebtn.png" alt="share"></button>
+                            <button class="addcart"><img src="./cart/addcart.png" alt="addcart">ADD TO CART</button>
+                        </div>
+                        <div class="rating">
+                            <label id="rate">Pink Ice</label>
+                            <div class="stars">
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star grey"></i>
+                            </div>
+                        </div>
+                        <div class="des">
+                            <label id="description">Women Navy Hooded Sweatshirt, with attached hood contrast</label>
+                        </div>
+                        <div class="colors">
+                            <i class="fa-solid fa-circle color4"></i>
+                            <i class="fa-solid fa-circle color5"></i>
+                        </div>
+                        <div class="prices">
+                            <label id="price">$20.00 <span>$50.95</span></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="productimage">
+                    <div class="productimg">
+                        <img src="./cart/w3.png" alt="W3">
+                        <div class="hovertrans">
+                            <button class="icon1"><img src="./cart/eye.png" alt="eye"></button>
+                            <button class="icon2"><img src="./cart/sharebtn.png" alt="share"></button>
+                            <button class="addcart"><img src="./cart/addcart.png" alt="addcart">ADD TO CART</button>
+                        </div>
+                        <div class="rating">
+                            <label id="rate">Pink Ice</label>
+                            <div class="stars">
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star grey"></i>
+                            </div>
+                        </div>
+                        <div class="des">
+                            <label id="description">Women Navy Hooded Sweatshirt, with attached hood contrast</label>
+                        </div>
+                        <div class="colors">
+                            <i class="fa-solid fa-circle color6"></i>
+                            <i class="fa-solid fa-circle color7"></i>
+                            <i class="fa-solid fa-circle color8"></i>
+                        </div>
+                        <div class="prices">
+                            <label id="price">$20.00</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="productimage">
+                    <div class="productimg">
+                        <img src="./cart/w4.png" alt="W4">
+                        <div class="hovertrans">
+                            <button class="icon1"><img src="./cart/eye.png" alt="eye"></button>
+                            <button class="icon2"><img src="./cart/sharebtn.png" alt="share"></button>
+                            <button class="addcart"><img src="./cart/addcart.png" alt="addcart">ADD TO CART</button>
+                        </div>
+                        <div class="rating">
+                            <label id="rate">Pink Ice</label>
+                            <div class="stars">
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star grey"></i>
+                            </div>
+                        </div>
+                        <div class="des">
+                            <label id="description">Women Navy Hooded Sweatshirt, with attached hood contrast</label>
+                        </div>
+                        <div class="colors">
+                            <i class="fa-solid fa-circle color9"></i>
+                        </div>
+                        <div class="prices">
+                            <label id="price">$20.00 <span>$50.95</span></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="productimage">
+                    <div class="productimg">
+                        <img src="./cart/w1.png" alt="W1">
+                        <div class="hovertrans">
+                            <button class="icon1"><img src="./cart/eye.png" alt="eye"></button>
+                            <button class="icon2"><img src="./cart/sharebtn.png" alt="share"></button>
+                            <button class="addcart"><img src="./cart/addcart.png" alt="addcart">ADD TO CART</button>
+                        </div>
+                        <div class="rating">
+                            <label id="rate">Pink Ice</label>
+                            <div class="stars">
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star grey"></i>
+                            </div>
+                        </div>
+                        <div class="des">
+                            <label id="description">Women Navy Hooded Sweatshirt, with attached hood contrast</label>
+                        </div>
+                        <div class="colors">
+                            <i class="fa-solid fa-circle color1 active"></i>
+                            <i class="fa-solid fa-circle color2"></i>
+                            <i class="fa-solid fa-circle color3"></i>
+                        </div>
+                        <div class="prices">
+                            <label id="price">$20.00</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="productimage">
+                    <div class="productimg">
+                        <img src="./cart/w2.png" alt="W2">
+                        <div class="hovertrans">
+                            <button class="icon1"><img src="./cart/eye.png" alt="eye"></button>
+                            <button class="icon2"><img src="./cart/sharebtn.png" alt="share"></button>
+                            <button class="addcart"><img src="./cart/addcart.png" alt="addcart">ADD TO CART</button>
+                        </div>
+                        <div class="rating">
+                            <label id="rate">Pink Ice</label>
+                            <div class="stars">
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star grey"></i>
+                            </div>
+                        </div>
+                        <div class="des">
+                            <label id="description">Women Navy Hooded Sweatshirt, with attached hood contrast</label>
+                        </div>
+                        <div class="colors">
+                            <i class="fa-solid fa-circle color4"></i>
+                            <i class="fa-solid fa-circle color5"></i>
+                        </div>
+                        <div class="prices">
+                            <label id="price">$20.00 <span>$50.95</span></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="productimage">
+                    <div class="productimg">
+                        <img src="./cart/w3.png" alt="W3">
+                        <div class="hovertrans">
+                            <button class="icon1"><img src="./cart/eye.png" alt="eye"></button>
+                            <button class="icon2"><img src="./cart/sharebtn.png" alt="share"></button>
+                            <button class="addcart"><img src="./cart/addcart.png" alt="addcart">ADD TO CART</button>
+                        </div>
+                        <div class="rating">
+                            <label id="rate">Pink Ice</label>
+                            <div class="stars">
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star grey"></i>
+                            </div>
+                        </div>
+                        <div class="des">
+                            <label id="description">Women Navy Hooded Sweatshirt, with attached hood contrast</label>
+                        </div>
+                        <div class="colors">
+                            <i class="fa-solid fa-circle color6"></i>
+                            <i class="fa-solid fa-circle color7"></i>
+                            <i class="fa-solid fa-circle color8"></i>
+                        </div>
+                        <div class="prices">
+                            <label id="price">$20.00</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="productimage">
+                    <div class="productimg">
+                        <img src="./cart/w4.png" alt="W4">
+                        <div class="hovertrans">
+                            <button class="icon1"><img src="./cart/eye.png" alt="eye"></button>
+                            <button class="icon2"><img src="./cart/sharebtn.png" alt="share"></button>
+                            <button class="addcart"><img src="./cart/addcart.png" alt="addcart">ADD TO CART</button>
+                        </div>
+                        <div class="rating">
+                            <label id="rate">Pink Ice</label>
+                            <div class="stars">
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star yellow"></i>
+                                <i class="fa-solid fa-star grey"></i>
+                            </div>
+                        </div>
+                        <div class="des">
+                            <label id="description">Women Navy Hooded Sweatshirt, with attached hood contrast</label>
+                        </div>
+                        <div class="colors">
+                            <i class="fa-solid fa-circle color9"></i>
+                        </div>
+                        <div class="prices">
+                            <label id="price">$20.00 <span>$50.95</span></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="cartsl">
+            <div class="cartt">
+                <p class="c1">Our Mission</h4>
+                <p class="c2">ABOUT OUR STORY</h1>
+            </div>
+        </div>
+        <div class="review">
+            <div class="image">
+                <img src="./story/img1.png" alt="img1">
+            </div>
+            <div class="story">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit distinctio deserunt nisi
+                    autem rem enim voluptas nemo? Obcaecati, praesentium optio! Iusto nemo facilis nesciunt
+                    officiis aperiam. Saepe repellat laborum ullam eligendi quis.
+                </p>
+                <p> Repellendus nemo, expedita,nulla dolorem autem illum ipsam voluptates rerum numquam ab
+                    explicabo veniam magni! Sit
+                    asperiores repellendus tenetur amet minima. Temporibus magnam non ipsam quo. Eaque, soluta
+                    cupiditate eum fuga quibusdam rem voluptatibus molestiae aut unde magni odio corrupti,
+                    praesentium laborum incidunt est quo at exercitationem illum eligendi assumenda officiis,
+                    saepe tempore veniam.
+                </p>
+                <p> Architecto ipsam fuga voluptatibus dignissimos iure vero,
+                    corporis,
+                    repellat eveniet reiciendis nisi cum aliquid.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione maxime suscipit fuga quod
+                    asperiores voluptatibus nam placeat excepturi, quia omnis porro esse autem laboriosam! Neque
+                    dignissimos quis nihil quas consequuntur saepe, porro molestiae aliquam assumenda officia!
+                    Culpa sit vero minus.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nobis inventore delectus
+                    eligendi qui veritatis amet, minima veniam expedita. Voluptas pariatur hic, sequi tenetur
+                    quasi tempora a eius quis dolores.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, nam ad quibusdam a
+                    natus deleniti accusantium. Dignissimos repudiandae saepe obcaecati necessitatibus, eos
+                    atque temporibus fugit quia sunt consectetur neque laboriosam error aliquam natus unde, ab
+                    quam delectus minus inventore aliquid! Labore inventore nostrum modi eius voluptates placeat
+                    architecto deleniti quisquam.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque cumque neque illum
+                    accusantium est fugit? Totam quia odio soluta ex rem quibusdam eveniet incidunt expedita
+                    esse beatae quidem commodi, pariatur recusandae maiores iste consequuntur dignissimos
+                    consectetur nihil ratione fugit minima?
+                </p>
+                <button class="readmore">READ MORE</button>
+            </div>
+        </div>
+        <div class="video">
+            <div class="v1">
+                <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                </iframe>
+            </div>
+            <div class="v2">
+                <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                </iframe>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="cartsl">
+            <div class="cartt">
+                <p class="c1">Our Mission</h4>
+                <p class="c2">ABOUT OUR STORY</h1>
+            </div>
+        </div>
+        <div class="brands">
+            <div class="brandsl">
+                <div class="brandimg">
+                    <img src="./Brand/b1.png" alt="b1">
+                </div>
+                <div class="brandimg">
+                    <img src="./Brand/b2.png" alt="b2">
+                </div>
+                <div class="brandimg">
+                    <img src="./Brand/b3.png" alt="b3">
+                </div>
+                <div class="brandimg">
+                    <img src="./Brand/b4.png" alt="b4">
+                </div>
+                <div class="brandimg">
+                    <img src="./Brand/b5.png" alt="b5">
+                </div>
+                <div class="brandimg">
+                    <img src="./Brand/b6.png" alt="b6">
+                </div>
+                <div class="brandimg">
+                    <img src="./Brand/b1.png" alt="b1">
+                </div>
+                <div class="brandimg">
+                    <img src="./Brand/b2.png" alt="b2">
+                </div>
+                <div class="brandimg">
+                    <img src="./Brand/b3.png" alt="b3">
+                </div>
+                <div class="brandimg">
+                    <img src="./Brand/b4.png" alt="b4">
+                </div>
+                <div class="brandimg">
+                    <img src="./Brand/b5.png" alt="b5">
+                </div>
+                <div class="brandimg">
+                    <img src="./Brand/b6.png" alt="b6">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="cartsl">
+            <div class="cartt">
+                <p class="c1">Our Mission</h4>
+                <p class="c2">ABOUT OUR STORY</h1>
+            </div>
+        </div>
+        <div class="revie">
+
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="cartsl">
+                <div class="cartt">
+                    <p class="c1">Our Mission</h4>
+                    <p class="c2">ABOUT OUR STORY</h1>
+                </div>
+            </div>
+            <div class="insta">
+
+            </div>
+            <div class="footercontent">
+                <div class="left">
+
+                </div>
+                <div class="middle">
+
+                </div>
+                <div class="right">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
 </body>
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="./slick/slick.min.js"></script>
-<script type="text/javascript" src="./index.js"></script>
+<script type="text/javascript" src="./js/index.js"></script>
 
 </html>
