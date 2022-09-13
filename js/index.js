@@ -1,9 +1,8 @@
 $(document).ready(function () {
     $('.mainimage').slick({
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        arrows: false,
+        //slidesToScroll: 1,
+        //autoplay: true,
+        //autoplaySpeed: 5000,
     });
     $('.smallsl').slick({
         slidesToShow: 4,
