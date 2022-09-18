@@ -15,10 +15,10 @@ $(document).ready(function () {
         arrows: false,
         responsive: [
             {
-                breakpoint: 769,
+                breakpoint: 779,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
                     infinite: true,
                     dots: false
                 }
@@ -35,9 +35,9 @@ $(document).ready(function () {
         nextArrow: '.cartnextarrow',
         responsive: [
             {
-                breakpoint: 769,
+                breakpoint: 779,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                     infinite: true,
                     dots: false
@@ -52,7 +52,17 @@ $(document).ready(function () {
         autoplaySpeed: 5000,
         arrows: true,
         prevArrow: '.prevarrow',
-        nextArrow: '.nextarrow'
+        nextArrow: '.nextarrow',
+        responsive: [
+            {
+                breakpoint: 779,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            }]
     });
     $('.testimonials').slick({
         slidesToShow: 2,
@@ -63,6 +73,16 @@ $(document).ready(function () {
         arrows: false,
         // prevArrow:'.prevarrow',
         // nextArrow:'.nextarrow'
+        responsive: [
+            {
+                breakpoint: 779,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            }]
     });
     $('.instasl').slick({
         slidesToShow: 6,
@@ -72,6 +92,16 @@ $(document).ready(function () {
         //autoplaySpeed: 5000,
         arrows: true,
         prevArrow: '.instaprevarrow',
-        nextArrow: '.instanextarrow'
+        nextArrow: '.instanextarrow',
+        responsive: [
+            {
+                breakpoint: 779,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            }]
     });
 });

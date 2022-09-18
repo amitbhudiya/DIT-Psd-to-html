@@ -32,9 +32,11 @@
     padding: 23px 0px;
 
 }
-.head #headlogo{
+
+.head #headlogo {
     width: 100%;
 }
+
 .item {
     display: flex;
     align-items: center;
@@ -49,6 +51,7 @@
     width: 50%;
 
 }
+
 .item form .headtextbox {
     background-color: #f1f1f1;
     border: none;
@@ -343,7 +346,8 @@
     display: flex;
 
 }
-.cateimage1 img{
+
+.cateimage1 img {
     width: 100%;
 }
 
@@ -388,7 +392,8 @@
 .cateimage2 {
     position: relative;
 }
-.cateimage2 img{
+
+.cateimage2 img {
     width: 100%;
 }
 
@@ -462,7 +467,8 @@
 .cartimage {
     position: relative;
 }
-.cartimage .wimage{
+
+.cartimage .wimage {
     width: 100%;
 }
 
@@ -634,9 +640,11 @@
 .review .image {
     width: 100%;
 }
-.review .image img{
+
+.review .image img {
     width: 100%;
 }
+
 .story {
     position: relative;
     padding-left: 70px;
@@ -850,9 +858,13 @@ iframe {
     margin-top: 10px;
 }
 
-.footercontent {
+.maincontent {
     display: flex;
     justify-content: space-between;
+
+}
+
+.footercontent {
     padding: 50px 0px 55px 0px;
 }
 
@@ -886,20 +898,7 @@ iframe {
     text-decoration: underline;
 }
 
-.blog {
-    padding-top: 20px;
-}
 
-.blog h4 {
-    font-weight: 300;
-    font-size: 18px;
-}
-
-.blog h4 a {
-    font-family: 'Roboto', sans-serif;
-    color: #000;
-    text-decoration: none;
-}
 
 .middle {
     text-align: center;
@@ -908,6 +907,11 @@ iframe {
 
 .ditlogo {
     padding-bottom: 55px;
+
+}
+
+.ditlogo img {
+    width: 100%;
 }
 
 .add {
@@ -933,17 +937,11 @@ iframe {
     text-decoration: underline;
 }
 
-.reserve {
-    font-size: 16px;
-}
 
-.reserve a {
-    text-decoration: none;
-    color: #000;
-}
 
 .right {
     text-align: right;
+    width: 17%;
 }
 
 .email #newsletter {
@@ -997,12 +995,42 @@ iframe {
     font-size: 32px;
 }
 
+.blog {
+    width: 20%;
+}
+
+.blog h4 {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.blog h4 a {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    text-decoration: none;
+}
+
+.reserve {
+    font-size: 16px;
+}
+
+.reserve a {
+    text-decoration: none;
+    color: #000;
+}
+
 .sponsors {
     display: flex;
     gap: 20px;
     align-items: center;
-    padding-left: 40px;
-    padding-top: 40px;
+    /* padding-left: 40px;
+    padding-top: 40px; */
+}
+
+.copyrights {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 @media screen and (max-width: 1681px) {
@@ -1011,13 +1039,12 @@ iframe {
     }
 
     .instaslider {
-        width: 100%;
+        width: 95%;
     }
 
     .instaimage img {
-        width: 97%;
+        width: 100%;
     }
-
 }
 
 @media screen and (max-width: 1601px) {
@@ -1028,224 +1055,305 @@ iframe {
     .instaslider {
         width: 95%;
     }
-    .brands{
+
+    .brands {
         width: 98%;
         margin: 0 auto;
     }
-    .brandimg img{
+
+    .brandimg img {
         width: 86%;
     }
-    .product{
+
+    .product {
         width: 97%;
         margin: 0 auto;
     }
+
+    .blog {
+        width: 19%;
+    }
 }
+
 @media screen and (max-width: 1541px) {
-    .container{
+    .container {
         padding: 0px 40px;
     }
 }
+
 @media screen and (max-width: 1441px) {
-    .item{
+    .item {
         width: 63%;
     }
+
     .bannertitle {
         width: 64%;
     }
-   .story p{
-    font-size: 17px;
-    padding-bottom: 21px;
-   }
-    .brands{
+
+    .story p {
+        font-size: 17px;
+        padding-bottom: 21px;
+    }
+
+    .brands {
         width: 98%;
         margin: 0 auto;
     }
-    .brandimg img{
+
+    .brandimg img {
         width: 86%;
     }
-    .product{
+
+    .product {
         width: 95%;
         margin: 0 auto;
     }
-    .productimg{
+
+    .productimg {
         width: 100%;
     }
+
+    .blog {
+        width: 26%;
+    }
 }
+
 @media screen and (max-width: 1367px) {
-    .item{
+    .item {
         width: 67%;
     }
+
     .bannertitle {
         width: 67%;
 
     }
-    .story{
+
+    .story {
         padding-left: 22px;
     }
-    .story p{
+
+    .story p {
         padding-bottom: 18px;
-       }
-       iframe {
+    }
+
+    iframe {
         height: 375px;
     }
-.labeldiv2{
-    left: 50%;
+
+    .labeldiv2 {
+        left: 50%;
+    }
+
+    .blog {
+        width: 28%;
+    }
+
 }
-    
-}
+
 @media screen and (max-width: 1281px) {
-    .item form{
+    .item form {
         width: 46%;
     }
+
     .bannertitle {
         width: 72%;
         bottom: 125px;
     }
-    .navbar ul li{
+
+    .navbar ul li {
         padding: 0px 20px;
     }
-    .content-usp{
-    font-size: 16px;
+
+    .content-usp {
+        font-size: 16px;
     }
-    .story{
+
+    .story {
         padding-left: 22px;
     }
-    .story p{
+
+    .story p {
         font-size: 16px;
         padding-bottom: 15px;
-       }
-       iframe {
+    }
+
+    iframe {
         height: 350px;
     }
-       .labeldiv2{
+
+    .labeldiv2 {
         left: 46%;
     }
+
+    .blog {
+        width: 32%;
+    }
 }
+
 @media screen and (max-width: 1201px) {
-   
-    .item form{
+
+    .item form {
         width: 42%;
     }
+
     .bannertitle {
         width: 68%;
     }
+
     .bannertext h1 {
         font-size: 46px;
     }
+
     .bannertext h2 {
         font-size: 24px;
     }
-    .shopbutton{
+
+    .shopbutton {
         font-size: 14px;
     }
-    
-    .story{
+
+    .story {
         padding-left: 22px;
     }
-    .story p{
+
+    .story p {
         font-size: 14px;
         padding-bottom: 18px;
     }
+
     iframe {
         height: 310px;
     }
-       .labeldiv2{
+
+    .labeldiv2 {
         left: 43%;
+    }
+
+    .blog {
+        width: 35%;
     }
 }
 
 @media screen and (max-width: 1025px) {
-   .item{
-    gap: 43px;
-    width: 61%;
-   }
-   .navbar ul li {
-    padding: 0px 12px;
-}
-    .item form{
+    .item {
+        gap: 43px;
+        width: 61%;
+    }
+
+    .navbar ul li {
+        padding: 0px 12px;
+    }
+
+    .item form {
         width: 31%;
     }
-    .banner{
+
+    .banner {
         padding: 20px 25px 20px 20px;
     }
+
     .bannertitle {
         width: 59%;
     }
-    .bannertext{
+
+    .bannertext {
         padding-right: 22px;
     }
+
     .bannertext h1 {
         font-size: 33px;
     }
+
     .bannertext h2 {
         font-size: 18px;
     }
-    .shopbutton{
+
+    .shopbutton {
         font-size: 14px;
     }
-    .content-usp{
+
+    .content-usp {
         font-size: 13px;
     }
-    .story{
+
+    .story {
         padding-left: 10px;
     }
+
     .story p {
         font-size: 13px;
         padding-bottom: 10px;
     }
-    .readmore{
+
+    .readmore {
         font-size: 10px;
         padding: 10px 15px;
     }
+
     iframe {
         height: 270px;
     }
-       .labeldiv2{
+
+    .labeldiv2 {
         left: 43%;
     }
+
+    .shopinsta {
+        top: 9px;
+        left: 8px;
+        width: calc(100% - 16px);
+        height: calc(100% - 15px);
+    }
+
+    .shopinsta a {
+        font-size: 13px;
+        padding: 16px 12px;
+    }
+
+    .right {
+        width: 22%;
+    }
+
+    .middle {
+        width: 36%;
+    }
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 769px) {
     .container {
-        max-width: 728px;
+        padding: 0px 20px;
     }
-
-    .head {
-        flex-direction: column;
+    .navbar ul li:hover .submenu {
+        display: block;
+        position: relative;
     }
-
-    .logo {
-        padding-bottom: 20px;
+    .navbar ul li:not(:first-child) 
+    {
+        display: none;
     }
-
-    .item {
-        width: 100%;
-        gap: 20px;
-    }
-
-    .item form {
-        width: 58%;
-    }
-
-    .navbar {
-        font-size: 12px;
-    }
-
-    .navbar ul li {
-        padding: 0 10px;
-    }
-
-    .submenu ul li {
-        padding: 10px 0px 10px 10px;
-        min-width: 100px;
-    }
-
     .banner {
-        padding: 10px 12px 10px 18px;
+        padding: 12px;
     }
-
+    .logo{
+        padding-bottom: 12px;
+    }
+    .head{
+        display: block;
+        padding: 14px 0px;
+    }
+    .head #headlogo{
+        width: 50%;
+    }
+    .item{
+        width: 100%;
+        gap: 42px;
+    }
+    .item form{
+        width: 46%;
+    }
     .bannertitle {
-        left: 50%;
-        bottom: 70px;
+        width: 55%;
+        bottom: 75px;
     }
 
     .bannertext {
@@ -1253,31 +1361,105 @@ iframe {
     }
 
     .bannertext h1 {
-        font-size: 20px;
-        ;
+        font-size: 21px;
     }
 
     .bannertext h2 {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .shopbutton {
-        padding: 5px;
-        padding-top: 8px;
-        font-size: 8px;
+        font-size: 11px;
+        padding: 7px;
     }
-
-    .shopbutton img {
-        padding-left: 4px;
+    .labeldiv2 {
+        left: 55%;
     }
-
-    .review {
-        display: block;
+    .bars{
+        color: #fff;
     }
-
+   
     .cateimg1,
     .cateimg2,
     .video {
         display: grid;
+    }
+
+    .maincontent,
+    .review,
+    .copyrights 
+    {
+        display: block;
+    }
+    .product {
+        width: 90%;
+    }
+    .story p {
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+
+    .story {
+        padding-left: 0;
+        padding-top: 25px;
+    }
+
+    iframe {
+        height: 416px;
+    }
+    .brands {
+        width: 95%;
+    }
+
+    .brandimg img {
+        width: 86%;
+    }
+    .instaslider{
+        width: 90%;
+    }
+    .instaimage img{
+        width: 90%;
+    }
+    .shopinsta{
+        top: 15px;
+        left: 15px;
+        width: calc(100% - 63px);
+        height: calc(100% - 25px);
+    }
+    .shopinsta a{
+        font-size: 15px;
+    padding: 18px 16px;
+    }
+    .left {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .middle {
+        width: 50%;
+        text-align: left;
+
+    }
+
+    .right {
+        width: 40%;
+        text-align: left;
+        padding-bottom: 20px;
+    }
+
+    .footericon {
+        justify-content: left;
+    }
+
+    .left img {
+        display: none;
+    }
+
+    .blog {
+        padding-bottom: 15px;
+    }
+
+    .reserve {
+        padding-bottom: 15px;
     }
 }
