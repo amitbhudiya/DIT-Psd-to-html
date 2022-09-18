@@ -3,9 +3,9 @@ $(document).ready(function () {
         //slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 5000,
-        infinite:false,
-        arrows:false,
- });
+        infinite: false,
+        arrows: false,
+    });
     $('.smallsl').slick({
         slidesToShow: 4,
         slidesToScroll: 4,
@@ -13,6 +13,16 @@ $(document).ready(function () {
         autoplay: true,
         autoplaySpeed: 5000,
         arrows: false,
+        responsive: [
+            {
+                breakpoint: 769,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            }]
     });
     $('.productsl').slick({
         slidesToShow: 4,
@@ -21,9 +31,19 @@ $(document).ready(function () {
         //autoplay: true,
         autoplaySpeed: 5000,
         arrows: true,
-        prevArrow:'.cartprevarrow',
-        nextArrow:'.cartnextarrow'
-   });
+        prevArrow: '.cartprevarrow',
+        nextArrow: '.cartnextarrow',
+        responsive: [
+            {
+                breakpoint: 769,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            }]
+    });
     $('.brandsl').slick({
         slidesToShow: 6,
         slidesToScroll: 2,
@@ -31,8 +51,8 @@ $(document).ready(function () {
         //autoplay: true,
         autoplaySpeed: 5000,
         arrows: true,
-        prevArrow:'.prevarrow',
-        nextArrow:'.nextarrow'
+        prevArrow: '.prevarrow',
+        nextArrow: '.nextarrow'
     });
     $('.testimonials').slick({
         slidesToShow: 2,
@@ -51,7 +71,7 @@ $(document).ready(function () {
         //autoplay: true,
         //autoplaySpeed: 5000,
         arrows: true,
-        prevArrow:'.instaprevarrow',
-        nextArrow:'.instanextarrow'
+        prevArrow: '.instaprevarrow',
+        nextArrow: '.instanextarrow'
     });
 });
