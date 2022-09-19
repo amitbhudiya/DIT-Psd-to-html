@@ -161,7 +161,7 @@
     z-index: 100;
 }
 .bars{
-    padding: 15px 0px 0px 15px;
+    padding-top: 20px ;
     display: none;
     color: #fff;
     
@@ -211,6 +211,7 @@
 #mainimg {
     width: 100%;
     filter: grayscale(1);
+    display: flex;
 
 }
 
@@ -1257,16 +1258,16 @@ iframe {
 
 @media screen and (max-width: 1025px) {
     .item {
-        gap: 43px;
-        width: 61%;
+        gap: 32px;
+        width: 62%;
     }
 
     .navbar ul li {
-        padding: 0px 12px;
+        padding: 5px 12px;
     }
 
     .item form {
-        width: 31%;
+        width: 40%;
     }
 
     .banner {
@@ -1577,6 +1578,7 @@ iframe {
     }
     .shopbutton img {
         padding-left: 2px;
+        width: 9%;
     }
     .labeldiv2 {
         left: 40%;
@@ -1590,4 +1592,15 @@ iframe {
     .middle{
         width: 88%;
     }
+}
+@media screen and (max-width: 376px){
+.bannertitle {
+    width: 82%;
+    bottom: 38px;
+}
+.banner {
+    padding: 5px;
+}
+
+
 }

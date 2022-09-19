@@ -96,7 +96,7 @@ $(document).ready(function () {
     $('.testimonials').slick({
         slidesToShow: 2,
         slidesToScroll: 1,
-        infinite: true,
+        infinite: false,
         autoplay: true,
         autoplaySpeed: 5000,
         arrows: false,
