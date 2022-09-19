@@ -1,4 +1,14 @@
 $(document).ready(function () {
+    $('.headtoggle').click(function () { 
+        $('.item').toggleClass('active')
+    });
+    $('.toggle').click(function () { 
+        $('.navbar ul li').toggleClass('active')
+    });
+    
+    
+    
+    
     $('.mainimage').slick({
         //slidesToScroll: 1,
         autoplay: true,
@@ -19,10 +29,19 @@ $(document).ready(function () {
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
-                    infinite: true,
-                    dots: false
+                  
                 }
-            }]
+            }
+        ,
+            {
+                breakpoint: 426,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
+
     });
     $('.productsl').slick({
         slidesToShow: 4,
@@ -41,6 +60,13 @@ $(document).ready(function () {
                     slidesToScroll: 1,
                     infinite: true,
                     dots: false
+                }
+            },
+            {
+                breakpoint: 426,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
                 }
             }]
     });
@@ -61,6 +87,13 @@ $(document).ready(function () {
                     slidesToScroll: 1,
                     infinite: true,
                     dots: false
+                }
+            },
+            {
+                breakpoint: 426,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
                 }
             }]
     });
@@ -101,6 +134,13 @@ $(document).ready(function () {
                     slidesToScroll: 1,
                     infinite: true,
                     dots: false
+                }
+            },
+            {
+                breakpoint: 426,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
                 }
             }]
     });
