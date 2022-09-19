@@ -5,10 +5,6 @@ $(document).ready(function () {
     $('.toggle').click(function () { 
         $('.navbar ul li').toggleClass('active')
     });
-    
-    
-    
-    
     $('.mainimage').slick({
         //slidesToScroll: 1,
         autoplay: true,
