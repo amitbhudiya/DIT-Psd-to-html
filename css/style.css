@@ -957,7 +957,7 @@ iframe {
 
 .right {
     text-align: right;
-    width: 17%;
+    width: 20%;
 }
 
 .email #newsletter {
@@ -1008,11 +1008,11 @@ iframe {
 }
 
 .footericon a i {
-    font-size: 32px;
+    font-size: 30px;
 }
 
 .blog {
-    width: 20%;
+    width: 16%;
 }
 
 .blog h4 {
@@ -1087,7 +1087,7 @@ iframe {
     }
 
     .blog {
-        width: 19%;
+        width: 16%;
     }
 }
 
@@ -1136,7 +1136,7 @@ iframe {
        
     }
     .blog {
-        width: 26%;
+        width: 23%;
     }
 }
 
@@ -1167,7 +1167,7 @@ iframe {
     }
 
     .blog {
-        width: 28%;
+        width: 26%;
     }
 
 }
@@ -1208,7 +1208,7 @@ iframe {
     }
 
     .blog {
-        width: 32%;
+        width: 28%;
     }
 }
 
@@ -1252,7 +1252,7 @@ iframe {
     }
 
     .blog {
-        width: 35%;
+        width: 33%;
     }
 }
 
@@ -1340,6 +1340,9 @@ iframe {
 
     .middle {
         width: 36%;
+    }
+    .blog {
+        width: 37%;
     }
 }
 
@@ -1544,7 +1547,7 @@ iframe {
        display: block;
     }
     .item a #badge {
-    right: 355px;
+    right: 91%;
     top: 197px;
     }
     .bannertitle {
