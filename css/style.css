@@ -143,7 +143,7 @@
 .navbar img {
     padding-left: 7px;
 }
-.headtoggle{
+.solidbars{
     display: none;
 }
 .navbar ul {
@@ -160,10 +160,9 @@
     position: relative;
     z-index: 100;
 }
-.toggle{
+.bars{
     padding: 15px 0px 0px 15px;
     display: none;
-    flex-direction: column;
     color: #fff;
     
 }
@@ -312,6 +311,7 @@
     margin-top: 99px;
     font-weight: lighter;
     font-size: 18px;
+    text-align: center;
 }
 
 .alltitlelow h2 {
@@ -319,6 +319,7 @@
     margin-bottom: 49px;
     font-family: 'Source Serif Pro', serif;
     font-size: 36px;
+    text-align: center;
 }
 
 
@@ -334,6 +335,7 @@
     margin-top: 146px;
     font-weight: lighter;
     font-size: 18px;
+    text-align: center;
 }
 
 .alltitle h2 {
@@ -341,6 +343,7 @@
     margin-bottom: 50px;
     font-family: 'Source Serif Pro', serif;
     font-size: 36px;
+    text-align: center;
 }
 
 
@@ -788,6 +791,7 @@ iframe {
     display: flex;
     align-items: center;
     gap: 10px;
+    text-align: center;
 }
 
 
@@ -876,7 +880,7 @@ iframe {
 }
 
 .footercontent {
-    padding: 50px 0px 55px 0px;
+    padding: 50px 0px 51px 0px;
 }
 
 .d-flex {
@@ -1368,15 +1372,17 @@ iframe {
         width: 46%;
     }
     
-    .toggle{
+    .bars{
         display: flex;
+        position: absolute;
+        right: 23px;
     }
-    .navbar ul li{
+    .navbar ul li:not(:first-child){
         display: none;
-        padding: 5px 0px;
     }
     .navbar ul li.active{
         display: block;
+        width: 100%;
     }
     .navbar ul{
         flex-direction: column;
@@ -1556,7 +1562,15 @@ iframe {
     .bannertext h2 {
         font-size: 10px;
     }
-
+    .brandimg img {
+        width: 100%;
+    }
+    .instaimage img {
+        width: 100%;
+    }
+    .shopinsta{
+        width: calc(100% - 32px);
+    }
     .shopbutton {
         font-size: 10px;
         padding: 5px;

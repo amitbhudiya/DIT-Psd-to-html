@@ -1,8 +1,8 @@
 $(document).ready(function () {
-    $('.headtoggle').click(function () { 
+    $('.solidbars').click(function () { 
         $('.item').toggleClass('active')
     });
-    $('.toggle').click(function () { 
+    $('.bars').click(function () { 
         $('.navbar ul li').toggleClass('active')
     });
     $('.mainimage').slick({
@@ -15,7 +15,7 @@ $(document).ready(function () {
     $('.smallsl').slick({
         slidesToShow: 4,
         slidesToScroll: 4,
-        infinite: false,
+        infinite: true,
         autoplay: true,
         autoplaySpeed: 5000,
         arrows: false,
@@ -42,8 +42,8 @@ $(document).ready(function () {
     $('.productsl').slick({
         slidesToShow: 4,
         slidesToScroll: 4,
-        infinite: false,
-        //autoplay: true,
+        infinite: true,
+        autoplay: true,
         autoplaySpeed: 5000,
         arrows: true,
         prevArrow: '.cartprevarrow',
@@ -69,8 +69,8 @@ $(document).ready(function () {
     $('.brandsl').slick({
         slidesToShow: 6,
         slidesToScroll: 2,
-        infinite: false,
-        //autoplay: true,
+        infinite: true,
+        autoplay: true,
         autoplaySpeed: 5000,
         arrows: true,
         prevArrow: '.prevarrow',
@@ -96,9 +96,9 @@ $(document).ready(function () {
     $('.testimonials').slick({
         slidesToShow: 2,
         slidesToScroll: 1,
-        infinite: false,
-        //autoplay: true,
-        //autoplaySpeed: 5000,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
         arrows: false,
         // prevArrow:'.prevarrow',
         // nextArrow:'.nextarrow'
@@ -116,9 +116,9 @@ $(document).ready(function () {
     $('.instasl').slick({
         slidesToShow: 6,
         slidesToScroll: 2,
-        infinite: false,
-        //autoplay: true,
-        //autoplaySpeed: 5000,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
         arrows: true,
         prevArrow: '.instaprevarrow',
         nextArrow: '.instanextarrow',
