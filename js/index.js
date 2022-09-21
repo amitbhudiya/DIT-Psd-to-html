@@ -1,14 +1,25 @@
 $(document).ready(function () {
     $('.solidbars').click(function () { 
-        $('.item').toggleClass('active')
+        $('.navbar').toggleClass('active')
     });
-    $('.bars').click(function () { 
-        $('.navbar ul li').toggleClass('active')
+    $('.colors i').click(function () { 
+        $(".colors i").removeClass("active");
+        $(this).toggleClass('active')
     });
+    $('.item ul li').click(function () { 
+        $('.sub').toggleClass('active')
+    });
+    $('.navbar ul li').click(function() {
+        $(this).toggleClass('active inactive');
+    });
+    $('.navbar #accountul li').click(function () { 
+        $('.navbar .sub').toggleClass('active')
+    });
+   
     $('.mainimage').slick({
         //slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 5000,
+        // autoplay: true,
+        // autoplaySpeed: 5000,
         infinite: false,
         arrows: false,
     });
@@ -16,8 +27,8 @@ $(document).ready(function () {
         slidesToShow: 4,
         slidesToScroll: 4,
         infinite: true,
-        autoplay: true,
-        autoplaySpeed: 5000,
+        // autoplay: true,
+        // autoplaySpeed: 5000,
         arrows: false,
         responsive: [
             {
@@ -43,8 +54,8 @@ $(document).ready(function () {
         slidesToShow: 4,
         slidesToScroll: 4,
         infinite: true,
-        autoplay: true,
-        autoplaySpeed: 5000,
+        // autoplay: true,
+        // autoplaySpeed: 5000,
         arrows: true,
         prevArrow: '.cartprevarrow',
         nextArrow: '.cartnextarrow',
@@ -70,8 +81,8 @@ $(document).ready(function () {
         slidesToShow: 6,
         slidesToScroll: 2,
         infinite: true,
-        autoplay: true,
-        autoplaySpeed: 5000,
+        // autoplay: true,
+        // autoplaySpeed: 5000,
         arrows: true,
         prevArrow: '.prevarrow',
         nextArrow: '.nextarrow',
@@ -97,8 +108,8 @@ $(document).ready(function () {
         slidesToShow: 2,
         slidesToScroll: 1,
         infinite: false,
-        autoplay: true,
-        autoplaySpeed: 5000,
+        // autoplay: true,
+        // autoplaySpeed: 5000,
         arrows: false,
         // prevArrow:'.prevarrow',
         // nextArrow:'.nextarrow'
@@ -117,8 +128,8 @@ $(document).ready(function () {
         slidesToShow: 6,
         slidesToScroll: 2,
         infinite: true,
-        autoplay: true,
-        autoplaySpeed: 5000,
+        // autoplay: true,
+        // autoplaySpeed: 5000,
         arrows: true,
         prevArrow: '.instaprevarrow',
         nextArrow: '.instanextarrow',
